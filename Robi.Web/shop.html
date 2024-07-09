@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+        <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Bangladesh<br/>International</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Halal"class="search-input">
+                <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-singin">
+                <p><span>Hello, sing in</span></p>
+                <p class="nav-second">Account & Lists</p>  
+            </div>
+            <div class="nav-return">
+                <p><span>Hello, sing in</span></p>
+                <p class="nav-second">& Other</p>  
+            </div>
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-option">
+             <p>Today's Deals</p>
+             <p>Customer Service</p>
+             <p>Registry</p>
+             <p>Give Cards</p>
+             <p>Sell</p>   
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+         </header>
+         <div class="shop-section">
+            <div class="box1 box">
+                <div class="box-content">
+                <h2>Health & Personal Care</h2>
+                <div class="box-img"style="background-image:url('product.webp');"></div>
+                <p>All products price 499 Taka</p>
+            </div>
+            </div>
+            <div class="box2">
+                <div class="pox-content">
+                <h2></h2>
+                <div class="box-detils"><p>Our all product<br>So Good<br>And low Price</p></div>
+                <p></p>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Your information sent</h3>
+            <h6>Enter your details submit</6>
+        <form action="wsing.php" method="post">
+            <input type="text"name="name" id="name" placeholder="Enter your name">
+            <input type="text"name="address" id="address" placeholder="Enter your address">
+            <input type="text"name="gmail" id="gmail" placeholder="Enter your gmail">
+            <input type="text"name="number" id="number" placeholder="Enter your number">
+            <textarea name="desc" id="desc" cols="30"rows="10"placeholder="Enter any other information here">
+            </textarea>
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+        </div>
+        </form>
+    </body>
+</html>
